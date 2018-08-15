@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+  height: 1000px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: url(../../dist/image/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.wrapper .startBtn {
+  height: 140px;
+  width: 170px;
+  position: absolute;
+  left: 50px;
+  background: url(../../dist/image/startGame.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.wrapper .head-wrapper {
+  margin: 10px auto;
+  width: 400px;
+}
+.wrapper .head-wrapper .head {
+  text-align: center;
+}
+.wrapper .head-wrapper .flag-wrapper {
+  display: none;
+  background-color: #0f0;
+}
+.wrapper .box-wrapper {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  display: none;
+}
+.wrapper .box-wrapper .boom {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  float: left;
+  background: url('../../dist/image/cao.jpg');
+}
+.wrapper .box-wrapper .show {
+  background-image: url(../../dist/image/dilei.jpg);
+  background-size: 100% 100%;
+}
+.wrapper .box-wrapper .num {
+  background: #fabf3e;
+  text-align: center;
+  line-height: 39px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.wrapper .box-wrapper .flag {
+  background: url(../../dist/image/hongqi.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.wrapper .alertBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.wrapper .alertBox .alertImg {
+  width: 600px;
+  height: 400px;
+  background: url(../../dist/image/over.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.wrapper .alertBox .alertImg .close {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: url(../../dist/image/closeBtn.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
